@@ -1,5 +1,5 @@
 import 'package:expense_app/models/expense.dart';
-import 'package:expense_app/models/expenses_list.dart';
+import 'package:expense_app/widgets/expenses_list/expenses_list.dart';
 import 'package:flutter/material.dart';
 
 class Expenses extends StatefulWidget {
@@ -21,7 +21,7 @@ class _ExpensesState extends State<Expenses> {
     ),
     Expense(
       title: 'Cinema',
-      amount: 19.99,
+      amount: 15.69,
       date: DateTime.now(),
       category: Category.leisure,
     ),
